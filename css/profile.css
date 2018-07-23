@@ -1,0 +1,94 @@
+/* Profile area CSS */
+.profile-wrapp {
+	float: left;
+	width: 20%;
+	margin-left: 5%;
+	height: auto;
+	max-height: 80%;
+	border-radius: 6px;
+	border: solid 1px #d8d8d8;
+	background-color: white;
+	box-shadow: 0 3px 23px #d8d8d8;
+}
+.profile-header{
+	float: left;
+	height: auto;
+	overflow: hidden;
+}
+.profile-header .header-wrapp{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+}
+.profile-header .header-wrapp img {
+	width: 50%;
+	height: auto;
+	overflow: hidden;
+	border-radius: 50%;
+	border: solid 1px #d5d5d5;
+	margin-top: 20px;
+	opacity: 0.7;
+}
+.profile-header .header-wrapp img:hover{
+	cursor: crosshair;
+	opacity: 1;
+}
+.profile-header .header-wrapp .name{
+	float: left;
+	padding-top: 20px;
+	width: 100%;
+	font-weight: bold;
+	font-family: 'Work Sans', sans-serif;
+	color: #100405;
+}
+.profile-header .header-wrapp .location{
+	float: left;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	font-weight: 200;
+	font-family: 'Work Sans', sans-serif;
+	color: #160F0F;
+	padding: 5px 0 20px 0;
+}
+.profile-bio{
+	float: left;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+	border-top: solid 1px #d8d8d8;
+	border-bottom: solid 1px #d8d8d8;
+	padding: 20px 0 20px 0;
+}
+.profile-bio .bio {
+	float: left;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	text-align: center;
+	font-weight: 400;
+	font-family: 'Work Sans', sans-serif;
+	color: #393838;
+}
+.profile-icons{
+	float: left;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 20px 0 20px 0;
+	text-align: center;
+}
+.profile-icons .fab, .fas {
+	font-size: 35px;
+	padding: 5px;
+}
+.profile-icons a {
+	color: #f53b57;
+	transition: all 0.5s;
+}
+.profile-icons a:hover {
+	color: #2f3640;
+	transition: scale(0.5);
+}
